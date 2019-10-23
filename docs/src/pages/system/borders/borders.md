@@ -41,11 +41,8 @@ Use border utilities to add or remove an element’s borders. Choose from all bo
 <Box borderColor="grey.500">…
 <Box borderColor="text.primary">…
 <Box borderColor="text.primary">…
-<Box borderTopColor="primary.main" 
-  borderRightColor="secondary.main" 
-  borderBottomColor="error.main"
-  borderLeftColor="grey.500"
-/>
+<Box border="2 dotted secondary.main" />
+<Box border="2 solid secondary.main" borderRight="2 dotted primary.main" />
 ```
 
 ## Border-radius
